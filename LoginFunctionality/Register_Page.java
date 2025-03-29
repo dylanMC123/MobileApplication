@@ -34,7 +34,7 @@ public class Register_Page extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register_page);
 
-        FirebaseDatabase database = FirebaseDatabase.getInstance("https://mobileapp-7f8b1-default-rtdb.europe-west1.firebasedatabase.app/");
+        FirebaseDatabase database = FirebaseDatabase.getInstance("");
         mAuth = FirebaseAuth.getInstance();
 
         txt_email = (EditText) findViewById(R.id.register_email);
